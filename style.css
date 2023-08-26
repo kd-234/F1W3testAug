@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+    font-size:25px;
+    font-weight: bold;
+    background-color: orangered;
+    width:28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    position: relative;
+    top: 7px;
+
+    
+    border-radius: 5px;
+}
+/* .btn-main{
+    width:441px;
+    height: 24px;
+    padding-top:39px;
+    
+} */
+.logo-main{
+    
+    padding-left: 300px;
+   
+}
+.logo-text{     
+    color:orangered;
+    font-size: 30px;
+    font-weight:700;
+    letter-spacing: -1%;
+    margin-left: 8px;
+    padding-right:100px;
+  font-family:Poppins;
+
+}
+.btn-main{
+    padding-left: 200px;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.btn>a{
+    color:#212244;
+    font-size: 16px;
+    line-height: 4px;
+      font-family:poppins; 
+    text-decoration: none;
+
+}
+.btn>a:hover{
+    color:#212244;
+    text-decoration: 5px underline solid blue;
+}
+.header-page-layout{
+    background-color:#FEf2F1 ;
+    width:100%;
+    
+    
+}
+.header-page{
+    text-decoration: none;
+    width:85%;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #FEf2F1;
+   padding:20px;
+   bottom:10px;
+}
+
+
+
+
+
+
+.button-search{
+    display: flex;
+    text-align: right;
+    padding-left:200px;
+    position: relative;
+    left: 800px;
+    bottom: 40px;
+
+
+}
+.menu{
+    position: relative;
+    bottom: 60px;
+}
+.sign-btn{
+    width: 80px;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+}
+.button-search>.search-bar>input{
+    width: 200px;
+    height: 30px;
+    background-color:white;
+    border:none;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 14px;
+    padding-left: 5px;
+    
+
+}
+
+.box-1{
+    width:85%px;
+    padding-left: 60px;
+}
+.more>p{
+
+    color:orangered;
+    font-family:poppins;
+    text-align: start;
+    position:relative;
+    top: 20px;
+    left: 5px;
+
+
+    
+}
+.more{
+
+    background-color:#fff4f3;
+    width: 200px;
+    line-height: 10px;
+    height: 40px;
+    border-radius: 20px;
+    border: px solid black;
+    box-shadow:2px 2px 2px 2px; 
+    
+
+}
+.img-small{
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    border-radius: 50%;
+   position: relative;
+   bottom: 29px;
+   left: 190px;
+   
+
+}
+.img-small>img{
+    width: 50px;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    bottom: 5px;
+    left: 1px;
+}
+.box-1{
+    margin-bottom: 100px;
+   
+}
+#h1:after{
+        content:"our Town";
+        color: orangered;
+    
+    }
+
+
+.heading-1{
+
+    width:400px;
+    height:40;
+
+}
+.heading-1::after{
+    content:"your door";
+    color: orangered;
+
+}
+.img-2{ 
+    width: 330px;
+    height: 400px;
+
+    position: relative;
+    left: 30px;
+}
+
+.section-2{
+    width: 100%;
+
+}
+.box-2{
+width: 85%;
+height: 300px;
+margin: 60px;
+padding: 200;
+}
+.box-3{
+
+    width: 300px;
+
+}
+.section-3{
+width:100%;
+
+}
+
+.box-4{
+    width: 85%;
+    text-align: center;
+    display: flex;
+    padding-left: 200px;
+    color:black;
+    position: relative;
+    left: 180px;
+    
+   height: auto;
+}
+
+.box22{
+    
+    padding-left: 30px;
+   
+
+
+}
+.box22:hover{
+color:red;
+}
+.navbar-1{
+color:black;
+text-decoration: underline 1px solid;
+}
+.my-card-title{
+    overflow: hidden;
+     color:rgb(54,54,54);
+     font-weight:600;
+     position: relative;
+     bottom: 0px;
+ }
+ .btn{
+
+    position: relative;
+    top:40px;
+    right: 30px;
+    width: 130px;
+    height: 50px;
+    
+ }
+ .card-price{
+
+    position: relative;
+    bottom: 0px;
+    left:40px;
+    color:rgb(31,31,31);
+    font-weight:600;
+    font-size:12px;
+    line-height:15px;
+    
+}
+.price{
+    color:orangered;
+    position: relative;
+
+    bottom: 13px;
+    left: 35px;
+}
+.my-card{
+    padding-left: 20px;
+    height: 300px;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #FEf2F1;
+
+}
+#p{
+    padding-left: 100px;
+    width: 300px;
+    position: relative;
+    top: 30px;
+    right: 5px;
+    font-size: 14px;
+}
+.tbl {
+
+    margin: 100px;
+
+}
+#tr,td,th{
+width: 800px;
+padding-left:90px;
+
+
+}
+.tbl{
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+}
+.logo-1{
+    position: relative;
+    top:22px;
+    left: 98px;
+}
